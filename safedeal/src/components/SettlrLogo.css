@@ -1,0 +1,226 @@
+/* Settlr Logo Component Styling */
+
+.settlr-logo {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-family: 'Sora', sans-serif;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+
+/* Horizontal Layout - Icon Left, Text Right */
+.settlr-logo.horizontal {
+  flex-direction: row;
+}
+
+/* Vertical Layout - Icon Above, Text Below */
+.settlr-logo.vertical {
+  flex-direction: column;
+  text-align: center;
+  gap: 0.5rem;
+}
+
+/* Size Variants */
+.settlr-logo.small {
+  --icon-size: 40px;
+}
+
+.settlr-logo.medium {
+  --icon-size: 56px;
+}
+
+.settlr-logo.large {
+  --icon-size: 80px;
+}
+
+/* Icon Styling */
+.settlr-icon {
+  width: var(--icon-size, 48px);
+  height: var(--icon-size, 48px);
+  flex-shrink: 0;
+  transition: all 0.3s ease-out;
+}
+
+.settlr-logo:hover .settlr-icon {
+  filter: drop-shadow(0 4px 12px rgba(212, 175, 55, 0.3));
+  transform: scale(1.05);
+}
+
+/* Text Styling */
+.settlr-text {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.settlr-logo.vertical .settlr-text {
+  width: 100%;
+}
+
+/* Brand Text - "Settlr" */
+.settlr-brand {
+  margin: 0;
+  padding: 0;
+  font-size: 1.75rem;
+  font-weight: 800;
+  color: #2D2D2D;
+  letter-spacing: -0.5px;
+  line-height: 1.2;
+  transition: all 0.3s ease-out;
+}
+
+.settlr-logo.small .settlr-brand {
+  font-size: 1rem;
+}
+
+.settlr-logo.medium .settlr-brand {
+  font-size: 1.5rem;
+}
+
+.settlr-logo.large .settlr-brand {
+  font-size: 2rem;
+}
+
+/* Tagline Text - "Secure Every Transaction" */
+.settlr-tagline {
+  margin: 0;
+  padding: 0;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #4169E1;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  line-height: 1;
+  transition: all 0.3s ease-out;
+}
+
+.settlr-logo.small .settlr-tagline {
+  font-size: 0.6rem;
+}
+
+.settlr-logo.medium .settlr-tagline {
+  font-size: 0.75rem;
+}
+
+.settlr-logo.large .settlr-tagline {
+  font-size: 0.9rem;
+}
+
+/* Hover Effects */
+.settlr-logo:hover .settlr-brand {
+  color: #4169E1;
+  filter: drop-shadow(0 2px 4px rgba(65, 105, 225, 0.2));
+}
+
+.settlr-logo:hover .settlr-tagline {
+  color: #D4AF37;
+  letter-spacing: 1px;
+}
+
+/* Active State */
+.settlr-logo.active {
+  opacity: 1;
+}
+
+.settlr-logo.active .settlr-brand {
+  color: #D4AF37;
+}
+
+.settlr-logo.active .settlr-tagline {
+  color: #4169E1;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .settlr-logo.horizontal {
+    gap: 0.75rem;
+  }
+
+  .settlr-logo.medium .settlr-brand {
+    font-size: 1rem;
+  }
+
+  .settlr-logo.medium .settlr-tagline {
+    font-size: 0.5rem;
+  }
+}
+
+/* Simplified version for navbar */
+.settlr-logo-link .settlr-logo {
+  --icon-size: 32px;
+  gap: 0.5rem;
+}
+
+.settlr-logo-link .settlr-logo .settlr-brand {
+  font-size: 1.25rem;
+}
+
+.settlr-logo-link .settlr-logo .settlr-tagline {
+  display: none;
+}
+
+/* Login page version */
+.login-logo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.login-logo-container .settlr-logo {
+  --icon-size: 64px;
+  flex-direction: column;
+  text-align: center;
+}
+
+.login-logo-container .settlr-brand {
+  font-size: 2rem;
+}
+
+.login-logo-container .settlr-tagline {
+  font-size: 0.75rem;
+}
+/* Dark Theme - Dark Cyan Colors */
+[data-theme="dark"] .settlr-icon circle,
+.dark-theme .settlr-icon circle {
+  fill: #00D9D9;
+}
+
+[data-theme="dark"] .settlr-icon path,
+.dark-theme .settlr-icon path {
+  stroke: #00D9D9;
+}
+
+[data-theme="dark"] .settlr-icon rect,
+.dark-theme .settlr-icon rect {
+  fill: #00D9D9;
+  stroke: #00B8B8;
+}
+
+[data-theme="dark"] .settlr-icon line,
+.dark-theme .settlr-icon line {
+  stroke: #00D9D9;
+}
+
+[data-theme="dark"] .settlr-brand,
+.dark-theme .settlr-brand {
+  color: #00D9D9;
+}
+
+[data-theme="dark"] .settlr-tagline,
+.dark-theme .settlr-tagline {
+  color: #00B8B8;
+}
+
+[data-theme="dark"] .settlr-logo:hover .settlr-brand,
+.dark-theme .settlr-logo:hover .settlr-brand {
+  color: #00E5E5;
+}
+
+[data-theme="dark"] .settlr-logo:hover .settlr-tagline,
+.dark-theme .settlr-logo:hover .settlr-tagline {
+  color: #00D9D9;
+}
