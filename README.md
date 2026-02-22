@@ -53,7 +53,16 @@ If confirmations mismatch, the system flags the transaction and generates a disp
 -Secure Transaction Transparency:
 Clear status tracking and structured transaction details reduce fraud and build trust between parties.
 
+## AI Tools Used (Optional - For Transparency Bonus)
 
+If you used AI tools during development, document them here for transparency:
+
+*Tool Used:* Chatgpt
+
+*Purpose:* [What you used it for]
+- Example: "Generated boilerplate React components"
+- Example: "Debugging assistance for async functions"
+- Example: "Code review and optimization suggestions"
 
 
 
