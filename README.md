@@ -4,8 +4,6 @@
 
 # 🎯Settlr
 
-## Basic Details
-
 ### Team Name: InnovHers
 
 ### Team Members
@@ -42,6 +40,7 @@ Settlr introduces a dual-confirmation system where payments are securely locked 
 ## Features
 
 List the key features of your project:
+
 -Dual Confirmation System:
 Payments remain locked until both buyer and seller confirm the transaction, ensuring mutual agreement before release.
 
