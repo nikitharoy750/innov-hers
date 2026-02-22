@@ -13,7 +13,7 @@
 - Member 2: Sneha Sajeevan - TocH Institute Of Science and Technology
 
 ### Hosted Project Link
-[mention your project hosted link here]
+https://innovherssettlr.vercel.app/
 
 ### Project Description
 Settlr is a secure digital transaction simulation platform designed to protect customers and vendors through a dual-confirmation system. Payments remain locked until both parties verify the transaction, reducing fraud and increasing trust. It introduces smart dispute handling, identity verification concepts, and transparent deal tracking for safer online commerce.
@@ -79,13 +79,13 @@ Installation commands - npm
 #### Screenshots (Add at least 3)
 
 ![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
+it shows the login page consisting of both the consumer and vendor login
 
 ![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
+Shows the dashboard filled with various features includig recent transactions list
 
 ![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
+This shows the page that we go to after clicking "view dispute counter". it helps with taking further actions if issues arise and also can download a complaint file report
 
 #### Diagrams
 
@@ -101,17 +101,7 @@ Installation commands - npm
 
 ---
 
-### For Hardware:
-
-#### Schematic & Circuit
-
-![Circuit](Add your circuit diagram here)
-*Add caption explaining connections*
-
-![Schematic](Add your schematic diagram here)
-*Add caption explaining the schematic*
-
-#### Build Photos
+#Build photos
 
 ![Team](Add photo of your team here)
 
@@ -369,7 +359,7 @@ python script.py -v --format json data.json
 
 If you used AI tools during development, document them here for transparency:
 
-**Tool Used:** [e.g., GitHub Copilot, v0.dev, Cursor, ChatGPT, Claude]
+**Tool Used:** Chatgpt
 
 **Purpose:** [What you used it for]
 - Example: "Generated boilerplate React components"
@@ -395,10 +385,8 @@ If you used AI tools during development, document them here for transparency:
 
 ## Team Contributions
 
-- [Name 1]: [Specific contributions - e.g., Frontend development, API integration, etc.]
-- [Name 2]: [Specific contributions - e.g., Backend development, Database design, etc.]
-- [Name 3]: [Specific contributions - e.g., UI/UX design, Testing, Documentation, etc.]
-
+- Nikitha Roy: Frontend development
+- Sneha Sajeevan: Deployment
 ---
 
 ## License
