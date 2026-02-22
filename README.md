@@ -2,27 +2,28 @@
   <img src="./img.png" alt="Project Banner" width="100%">
 </p>
 
-# [Project Name] 🎯
+# 🎯Settlr
 
 ## Basic Details
 
-### Team Name: [Name]
+### Team Name: InnovHers
 
 ### Team Members
-- Member 1: [Name] - [College]
-- Member 2: [Name] - [College]
+- Member 1: Nikitha Roy - TocH Institute Of Science and Technology
+- Member 2: Sneha Sajeevan - TocH Institute Of Science and Technology
 
 ### Hosted Project Link
 [mention your project hosted link here]
 
 ### Project Description
-[2-3 lines about what your project does]
+Settlr is a secure digital transaction simulation platform designed to protect customers and vendors through a dual-confirmation system. Payments remain locked until both parties verify the transaction, reducing fraud and increasing trust. It introduces smart dispute handling, identity verification concepts, and transparent deal tracking for safer online commerce.
 
 ### The Problem statement
-[What problem are you solving?]
+Online transactions between buyers and sellers often lack a trusted middle layer, leading to scams, fake confirmations, delayed deliveries, and payment fraud. There is no simple, mutual verification system that ensures both parties confirm a transaction before money is released.
+As a result, users face financial loss, disputes, and reduced trust in digital marketplaces. Settlr aims to solve this trust gap by introducing a secure dual-confirmation transaction system.
 
 ### The Solution
-[How are you solving it?]
+Settlr introduces a dual-confirmation system where payments are securely locked until both customer and vendor verify the transaction. By integrating timed confirmations, dispute handling, and transparent tracking, it creates a trusted middle layer for safer digital commerce.
 
 ---
 
@@ -31,25 +32,27 @@
 ### Technologies/Components Used
 
 **For Software:**
-- Languages used: [e.g., JavaScript, Python, Java]
-- Frameworks used: [e.g., React, Django, Spring Boot]
-- Libraries used: [e.g., axios, pandas, JUnit]
-- Tools used: [e.g., VS Code, Git, Docker]
-
-**For Hardware:**
-- Main components: [List main components]
-- Specifications: [Technical specifications]
-- Tools required: [List tools needed]
+- Languages used: JavaScript
+- Frameworks used: React
+- Libraries used: Vite
+- Tools used: VS Code
 
 ---
 
 ## Features
 
 List the key features of your project:
-- Feature 1: [Description]
-- Feature 2: [Description]
-- Feature 3: [Description]
-- Feature 4: [Description]
+-Dual Confirmation System:
+Payments remain locked until both buyer and seller confirm the transaction, ensuring mutual agreement before release.
+
+-Timed Transaction Lock:
+Sellers can set a confirmation timer, and funds automatically freeze or return based on response within the deadline.
+
+-Smart Dispute Simulation:
+If confirmations mismatch, the system flags the transaction and generates a dispute report for review.
+
+-Secure Transaction Transparency:
+Clear status tracking and structured transaction details reduce fraud and build trust between parties.
 
 ---
 
@@ -59,21 +62,13 @@ List the key features of your project:
 
 #### Installation
 ```bash
-[Installation commands - e.g., npm install, pip install -r requirements.txt]
+Installation commands - npm
 ```
 
 #### Run
 ```bash
 [Run commands - e.g., npm start, python app.py]
-```
-
-### For Hardware:
-
-#### Components Required
-[List all components needed with specifications]
-
-#### Circuit Setup
-[Explain how to set up the circuit]
+---
 
 ---
 
